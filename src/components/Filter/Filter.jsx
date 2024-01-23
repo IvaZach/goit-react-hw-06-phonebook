@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
 import { getFilter } from '../../redux/selectors';
-import { findContact } from '../../redux/actions';
+import { findContact } from '../../redux/filterSlice';
 
 const Filter = () => {
   const filter = useSelector(getFilter);
